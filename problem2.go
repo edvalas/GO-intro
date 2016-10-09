@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+//this function determines if a number is prime
 func IsPrime(number int) bool {
     
     for i := 2; i < number; i++ {
@@ -11,7 +11,7 @@ func IsPrime(number int) bool {
     }
     return true
 }
-
+//main loops over 10001 prime numbers and finds the 10001th prime number
 func main() {
 	var ans int
 	count := 0
