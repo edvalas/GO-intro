@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+//this problem takes in input from keyboard from the user and reverses the input string
 func Reverse(s string) string {
     runes := []rune(s)
     for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
