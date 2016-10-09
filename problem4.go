@@ -6,7 +6,8 @@ import (
 	"strconv"
 )
 
-
+//this problem shows the collatz conjecture in action. It divides even numbers by 2 and multiples by 3 and adds 1 if the number is odd.
+//eventually starting at any number , the number goes down to 1.
 func collatz(n uint){
 	for ; n != 1; {
 		fmt.Print(n, " ")
